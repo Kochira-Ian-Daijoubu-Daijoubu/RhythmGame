@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Jersey10;
+  src: url(Jersey10-Regular.ttf);
+}
+@font-face {
+  font-family: DotGothic;
+  src: url(DotGothic16-Regular.ttf);
+}
+@font-face {
+  font-family: PressStart2p;
+  src: url(PressStart2P-Regular.ttf);
+}
+img#gitaur{
+  position: absolute;
+  top: 70%;
+  left: 22%;
+  width: 10%;
+}
+img#flute{
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  width: 10%;
+}
+img#glock{
+  position: absolute;
+  top: 70%;
+  right: 35%;
+  width: 10%;
+}
+img#mic{
+  position: absolute;
+  top: 70%;
+  right: 22%;
+  width: 10%;
+}
+#score {
+  color: rgb(0, 0, 0);
+  font-family: "Jersey10";
+  font-size: xx-large;
+  font-style: normal;
+  text-shadow: 0px 6px rgba(0, 0, 0, 0.368);
+}
+.title {
+  color: rgb(0, 0, 0);
+  font-family: "Jersey10";
+  font-size: xx-large;
+  font-style: normal;
+  text-shadow: 0px 6px rgba(0, 0, 0, 0.368);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#progressBar{
+  background-color: rgb(32, 32, 32);
+  height: 50px;
+  width: 99%;
+  position: relative;
+  transform: translate(3,3);
+  padding: 0.5%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#progress{
+  background-color: rgb(56, 182, 255);
+  height: 50px;
+  width: 0%;
+  position: relative;
+  transform: translate(3,3);
+}
+#rank{
+  position: absolute;
+  width: 20%;
+  display: flex;
+  left: 40%;
+}
+#return{
+  color: rgb(0, 94, 255);
+  font-family: "Jersey10";
+  font-size: xx-large;
+  font-style: normal;
+  text-shadow: 0px 6px rgba(0, 0, 0, 0.368);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#Hao{
+  background-color: rgb(77, 174, 28);
+  color: rgb(193, 255, 255);
+  font-family: "DotGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Human{
+  background-color: rgb(71, 71, 71);
+  color: rgb(189, 189, 189);
+  font-family: "DotGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Cinderella{
+  background-color: rgb(255, 208, 163);
+  color: rgb(112, 45, 4);
+  font-family: "DotGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Tutorial{
+  background-color: rgb(255, 0, 191);
+  color: rgb(255, 255, 255);
+  font-family: "DotGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#info{
+  background-color: rgb(255, 234, 42);
+  color: rgb(255, 255, 255);
+  font-family: "DotGothic";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tutorialCourse{
+  font-family: "PressStart2p";
+  font-size: 40px;
+  margin: 10%;
+  text-shadow: 0px 6px rgba(0, 0, 0, 0.368);
+}
+#information{
+  font-family: "PressStart2p";
+  font-size: 40px;
+  text-shadow: 0px 6px rgba(0, 0, 0, 0.368);
+}
+#AlbumArt{
+  width: 30%;
+  float: right;
+  margin-bottom: 20%;
+}
+#infomatics{
+  height: 75%;
+}
